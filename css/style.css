@@ -42,11 +42,15 @@ h3{
 
 .dream-big{
   display: flex;
+  
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#dream-big{
   background-image: url("img/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  padding-top: 150px;
-  padding-bottom: 150px;
 }
 
 .experience-container{
