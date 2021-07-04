@@ -18,7 +18,8 @@ h3{
 
 .container{
   display: flex;
-  background: url("/img/top-banner.png") no-repeat;
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
   
 }
 
