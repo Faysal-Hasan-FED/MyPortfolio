@@ -18,7 +18,7 @@ h3{
 
 .container{
   display: flex;
-  background: url(/img/top-banner.png);
+  background-image: url("/img/top-banner.png");
   background-repeat: no-repeat;
 }
 
@@ -42,7 +42,7 @@ h3{
 
 .dream-big{
   display: flex;
-  background: url(/img/dream-bg.png);
+  background-image: url("/img/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   padding-top: 150px;
