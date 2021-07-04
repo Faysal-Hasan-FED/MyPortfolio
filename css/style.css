@@ -5,6 +5,10 @@ body{
 h1{
   font-size: 50px;
 }
+
+h2{
+  font-size: 40px;
+}
 h3{
   font-size: 30px;
 }
@@ -42,4 +46,34 @@ h3{
   background-repeat: no-repeat;
   background-position: right bottom;
   padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.experience-container{
+  display: flex;
+  padding-bottom: 150px;
+}
+
+.experience-box{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 15px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+}
+
+#left-experience-box{
+  border-left: 10px solid;
+  border-image: linear-gradient(salmon,purple);
+  border-image-slice: 1;
+}
+#right-experience-box{
+  border-left: 10px solid;
+  border-image: linear-gradient(blue,cyan);
+  border-image-slice: 1;
+}
+
+footer p{
+  text-align: center;
 }
